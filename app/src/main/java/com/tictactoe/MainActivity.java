@@ -258,55 +258,57 @@ public class MainActivity extends AppCompatActivity {
     }
     private void closecheck() {
         Toast.makeText(this, ""+close.size(), Toast.LENGTH_SHORT).show();
-//        for (int i = 0; i < close.size(); i++) {
-//            for (int j = 0; j < close.size(); j++) {
-//                for (int k = 0; k < close.size(); k++) {
-//
-//                    if (close.get(i) == 1 && close.get(j) == 2 && close.get(k) == 3 ) {
-//
-//                        winClose();
-//                    }
-//                    if (close.get(i) == 4 && close.get(j) == 5 && close.get(k) == 6 ) {
-//                        winClose();
-//
-//                    }
-//                    if (close.get(i) == 7 && close.get(j) == 8 && close.get(k) == 9 ) {
-//                        winClose();
-//
-//                    }
-//                    if (close.get(i) == 1 && close.get(j) == 4 && close.get(k) == 7 ) {
-//                        winClose();
-//
-//                    }
-//                    if (close.get(i) == 2 && close.get(j) == 5 && close.get(k) == 8) {
-//
-//                        winClose();
-//                    }
-//                    if (close.get(i) == 3 && close.get(j) == 6 && close.get(k) == 9) {
-//
-//                        winClose();
-//                    }
-//                    if (close.get(i) == 1 && close.get(j) == 5 && close.get(k) == 9 ) {
-//
-//                        winClose();
-//                    }
-//                    if (close.get(i) == 3 && close.get(j) == 5 && close.get(k) == 7 ) {
-//
-//                        winClose();
-//                    }
-//
-//                }
-//            }
-//        }
+       for (int i = 0; i < close.size(); i++) {
+            for (int j = 0; j < close.size(); j++) {
+                for (int k = 0; k < close.size(); k++) {
+
+                    if (close.get(i) == 1 && close.get(j) == 2 && close.get(k) == 3 ) {
+
+                        winClose();
+                    }
+                    if (close.get(i) == 4 && close.get(j) == 5 && close.get(k) == 6 ) {
+                        winClose();
+
+                    }
+                    if (close.get(i) == 7 && close.get(j) == 8 && close.get(k) == 9 ) {
+                        winClose();
+
+                    }
+                    if (close.get(i) == 1 && close.get(j) == 4 && close.get(k) == 7 ) {
+                        winClose();
+
+                    }
+                    if (close.get(i) == 2 && close.get(j) == 5 && close.get(k) == 8) {
+
+                        winClose();
+                    }
+                    if (close.get(i) == 3 && close.get(j) == 6 && close.get(k) == 9) {
+
+                        winClose();
+                    }
+                    if (close.get(i) == 1 && close.get(j) == 5 && close.get(k) == 9 ) {
+
+                        winClose();
+                    }
+                    if (close.get(i) == 3 && close.get(j) == 5 && close.get(k) == 7 ) {
+
+                        winClose();
+                    }
+
+                }
+            }
+       }
     }
 
     void winCircle(){
-        reset();
+
         Toast.makeText(MainActivity.this, "Win Circle", Toast.LENGTH_SHORT).show();
+        reset();
     }
     void winClose(){
-        reset();
+
         Toast.makeText(MainActivity.this, "Win Close", Toast.LENGTH_SHORT).show();
+        reset();
     }
 
     void reset(){
