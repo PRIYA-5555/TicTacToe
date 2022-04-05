@@ -211,7 +211,6 @@ public class MainActivity extends AppCompatActivity {
 
         });
     }
-
     private static final String TAG = "MainActivity";
     private void circlecheck() {
 //        Toast.makeText(this, ""+circle.size(), Toast.LENGTH_SHORT).show();
