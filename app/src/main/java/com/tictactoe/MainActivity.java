@@ -214,7 +214,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
     private void circlecheck() {
-        Toast.makeText(this, ""+circle.size(), Toast.LENGTH_SHORT).show();
+//        Toast.makeText(this, ""+circle.size(), Toast.LENGTH_SHORT).show();
         for (int i = 0; i < circle.size(); i++) {
             for (int j = 0; j < circle.size(); j++) {
                 for (int k = 0; k < circle.size(); k++) {
@@ -256,7 +256,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     private void closecheck() {
-        Toast.makeText(this, ""+close.size(), Toast.LENGTH_SHORT).show();
+//        Toast.makeText(this, ""+close.size(), Toast.LENGTH_SHORT).show();
        for (int i = 0; i < close.size(); i++) {
             for (int j = 0; j < close.size(); j++) {
                 for (int k = 0; k < close.size(); k++) {
