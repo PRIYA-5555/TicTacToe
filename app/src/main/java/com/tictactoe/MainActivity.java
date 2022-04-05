@@ -251,7 +251,6 @@ public class MainActivity extends AppCompatActivity {
 
                         winCircle();
                     }
-
                 }
             }
         }
@@ -272,7 +271,6 @@ public class MainActivity extends AppCompatActivity {
                     }
                     if (close.get(i) == 7 && close.get(j) == 8 && close.get(k) == 9 ) {
                         winClose();
-
                     }
                     if (close.get(i) == 1 && close.get(j) == 4 && close.get(k) == 7 ) {
                         winClose();
